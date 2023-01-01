@@ -8,20 +8,9 @@ How to build PlatformIO based project
 
 ```shell
 # Change directory to example
-$ cd platform-espressif32/examples/espidf-hello-world
+$ cd theta-firmware/
 
-# Build project
-$ pio run
+# Build and upload project
+$ clear && pio run -e esp32dev --target upload
 
-# Upload firmware
-$ pio run --target upload
-
-# Build specific environment
-$ pio run -e esp32dev
-
-# Upload firmware for the specific environment
-$ pio run -e esp32dev --target upload
-
-# Clean build files
-$ pio run --target clean
 ```
