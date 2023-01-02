@@ -1,6 +1,6 @@
 Theta Firmware (C++)
 =====================================
-The purpose of this firmware is to increase the performance of the ECU, and allowing the development to be based around adding features while not having to worry about speed, as C++ is natively easy to write efficient code in compared to other languages such as MicroPython.
+The purpose of reimplementing the Theta firmware in C++ allows us to focus on making it feature-rich, while not having to worry about how taxing it will be on the ECU's performance. With the previous implementation written in MicroPython, we could see that the language was not going to scale well with the features that we have planned, especially with the restricted hardware we are running it on.
 
 
 Installation
